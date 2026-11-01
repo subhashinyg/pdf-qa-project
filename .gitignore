@@ -1,0 +1,36 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# Environment variables
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+coverage/
+
+
+# TypeScript
+*.tsbuildinfo
+
+# Logs
+logs
+*.log
+lerna-debug.log
+.claude/
+# IDE / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+migrations/
+scripts/
